@@ -1,0 +1,161 @@
+
+*{
+    margin: 1;
+    padding:1;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+.container{
+    display: flex;
+
+    justify-content: center;
+
+    padding: auto;
+
+    margin: 1 auto;   
+}
+h1{
+    position: relative;
+    height: 32px; 
+    top: 200 px;
+left: 27px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 290px;
+    color: #000000;
+    margin: auto;
+}
+h2{
+    display: flex;
+    position: relative;
+    left: 2px;
+    width: 351px;
+    height: 43px;
+    top: 199px;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 33px;
+    line-height: 30px;
+    padding-bottom: 33px;
+    letter-spacing: 0.296em;
+    color: #000000;
+    margin: auto;
+}
+.navBar{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 26px 24px;
+    gap: 57px;
+    justify-content: center;
+    position: absolute;
+    width: 580px;
+    height: 76px;
+    top: 306px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 301;
+    font-size: 26px;
+    line-height: 30px;
+    color: #000000;
+}
+.horizontal{
+    position: absolute;
+    width: 812px;
+    height: 341px;
+    left: 14px;
+    top: 519px;
+    }
+.vertical{
+    position: absolute;
+    width: 425px;
+    height: 694.84px;
+    left: 842px;
+    top: 518px;
+}
+.q1{
+    position: absolute;
+    width: 403px;
+    height: 339px;
+    left: 429px;
+    top: 872px;
+}
+.q2{
+    position: absolute;
+    width: 401px;
+    height: 340px;
+    left: 15px;
+    top: 871px;
+}
+main{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.fotos{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    right: 640px;
+    background-color: #f5f5f5 ;
+}
+footer{
+    justify-content: end;
+    position: relative;
+    height: 55px;
+    top: 1346px;
+ font-family: 'Inter';
+
+    font-style: normal;
+
+    font-weight: 299;
+
+    font-size: 26px;
+
+    line-height: 30px;
+
+    text-align: center;
+
+    color: #000000;
+}
+
+
+
+
+
+.redesSociais{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+    margin-top: 38px;
+    padding-bottom: 59px;
+
+
+    
+}
